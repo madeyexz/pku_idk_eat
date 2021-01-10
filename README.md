@@ -26,8 +26,6 @@
 ---
 __欢迎各位gourmet增加选项～__
 
-
----
 initiated on 20210110, four days before **高数期末考**
 
 status == '**危**'
