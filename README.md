@@ -16,16 +16,15 @@
   - 会帮你决定去家园的几楼
 
 ## TODO
-1. 增加食物选项
-2. 美化代码
-3. 增加时间、价格、餐厅人数等分析模块
-4. 编写模式模块（快速选择、最快速便宜选择等）
-5. 加入模式选择
+1. 从校网爬取餐厅信息（人数、名称）
+2. 增加“外卖”选项到餐厅list
+3. 增加“时间获取”模块（no input; output: now)
+4. 编写餐厅人数分析模块（input: time; output: occupied percentage）
+4. 编写“选择生成”模块 (input: occpied percentage, )
+5. 加入“模式选择”模块（PURE RANDOM, TIME-BASED-RMD,
+6. 修改外观
 ...
 
 ---
-__欢迎各位gourmet增加选项～__
 
 initiated on 20210110, four days before **高数期末考**
-
-status == '**危**'
