@@ -6,7 +6,7 @@
 **简单简洁**，仅需考虑自己对这个觅食场所的偏好（意愿点或说权值）
 
 ## Requirement
-- [rich](https://github.com/willmcgugan/rich)
+- module [rich](https://github.com/willmcgugan/rich)
     - installation guide `pip3 install rich`, [for more information](https://github.com/willmcgugan/rich#installing)
 
 ## Usage
