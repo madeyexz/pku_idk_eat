@@ -1,6 +1,6 @@
 # 所以等一下吃什么？
 ——解决在校园的饮食选择困难
-[demo_image](https://github.com/madeyexz/pku_idk_eat/blob/main/demo.png)
+![demo_image](https://github.com/madeyexz/pku_idk_eat/blob/main/demo.png)
 
 ## Philosophy
 **简单简洁**，仅需考虑自己对这个觅食场所的偏好（意愿点或说权值）
