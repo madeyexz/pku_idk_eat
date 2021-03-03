@@ -1,12 +1,12 @@
 # 所以等一下吃什么？
-——解决在北大的饮食选择困难
+——解决在校园的饮食选择困难
 
 ## Philosophy
-**简单简洁**，仅需考虑自己对这个觅食场所的偏好（意愿点）
+**简单简洁**，仅需考虑自己对这个觅食场所的偏好（意愿点或说权值）
 
 ## Requirement
 - [rich](https://github.com/willmcgugan/rich)
-    - installation guide `pip3 install rich`, [more information](https://github.com/willmcgugan/rich#installing)
+    - installation guide `pip3 install rich`, [for more information](https://github.com/willmcgugan/rich#installing)
 
 ## Usage
 1. open terminal, `cd` to desired directory, `git clone https://github.com/madeyexz/pku_idk_eat.git`
@@ -14,7 +14,7 @@
 3. on terminal, `cd pku_idk_eat` and then `python3 dinner.py`
 
 ## 如何让这个东西更nb
-- 获取地理位置、获取[餐厅人数数据](https://portal.pku.edu.cn/portal2017/#/pub/canteenH)（需登入）、获取餐厅价格相关数据（可能需要手动获取）并纳入分析考量
+- 获取地理位置、获取[餐厅人数数据](https://portal.pku.edu.cn/portal2017/#/pub/canteenH)（需登入）、获取餐厅价格相关数据（可能需要手动获取）并纳入分析考量
 - 根据早中晚三餐提供不同的选项
 - 写成mobile app
 
