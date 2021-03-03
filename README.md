@@ -1,30 +1,24 @@
 # 所以等一下吃什么？
-解决在北大的饮食选择困难
+——解决在北大的饮食选择困难
+
+---
 
 ## Philosophy
-构想这个程序的时候是想说**越简单越好**，不需要考虑任何因素，把选项手动输进去然后直接输出一个选项就好了。
-
-但后来想了想决定增加一个模式，把“餐厅人数”、“时间”等参数也考虑进去，最后输出一个依靠分析结果、随机性不那么强的选项。
+**越简单越好**，仅需考虑自己对这个觅食场所的偏好（意愿点）
 
 ## 使用说明
-1. 打开命令行，输入`python3` 然后把文件拖进去（当然直接用编译器跑也不是不行）
+1. open terminal, `cd` to desired directory, `git clone https://github.com/madeyexz/pku_idk_eat.git`
+2. open terminal, `cd` to pku_idk_eat folder, `python3 dinner.py`
 
-（到时候我可能会考虑把它变成一个`alias`这样以后就可以直接在terminal里面决定了😂）
+## 作业要求
+1. 第一次使用时输入权值，往后每次使用会询问是否修改权值
+2. 修改外观 (via *[rich](https://github.com/willmcgugan/rich)*)
+3. custom options
 
-## 特色
-- 目前选项极少
-- 家园的权值极大
-  - 会帮你决定去家园的几楼
-
-## TODO
-1. 从校网爬取餐厅信息（人数、名称）
-2. 增加“外卖”选项到餐厅list
-3. 增加“时间获取”模块（no input; output: now)
-4. 编写餐厅人数分析模块（input: time; output: occupied percentage）
-4. 编写“选择生成”模块 (input: occpied percentage, )
-5. 加入“模式选择”模块（PURE RANDOM, TIME-BASED-RMD,
-6. 修改外观 (via *[rich](https://github.com/willmcgugan/rich)*)
-
+## 如何让这个东西更nb
+- 获取地理位置、获取[餐厅人数数据](https://portal.pku.edu.cn/portal2017/#/pub/canteenH)（需登入）、获取餐厅价格相关数据（可能需要手动获取）并纳入分析考量
+- 根据早中晚三餐提供不同的选项
+- 写成mobile app
 
 ---
 
